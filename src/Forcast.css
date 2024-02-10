@@ -1,0 +1,32 @@
+p {
+  color: #5c6477;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+h3 {
+  text-align: center;
+}
+.weather-h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.weather-details {
+  color: #42a5f5;
+  text-align: center;
+}
+.sun-icon {
+  color: #f4e711;
+  font-size: 52px;
+}
+.showers-icon {
+  color: #183153;
+  font-size: 52px;
+}
+.icon-align {
+  text-align: center;
+}
+.weather-icons {
+  font-size: 52px;
+}
