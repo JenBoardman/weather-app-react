@@ -3,7 +3,7 @@ import Search from "./Search";
 import Today from "./Today";
 import Forcast from "./Forcast";
 import Footer from "./Footer";
-import background from "./image/mountains-4.jpg";
+import background from "./image/mountains-3.jpg";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       style={{
         backgroundImage: `url(${background})`,
         backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
         minHeight: "100vh",
       }}
     >

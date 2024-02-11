@@ -2,8 +2,9 @@
   margin-top: 60px;
 }
 .search-form {
-  padding: 20px;
-  margin-top: 50px;
+  max-width: 700px;
+  padding-top: 0px;
+  margin: auto;
 }
 .button {
   width: 100%;
@@ -15,12 +16,12 @@
   color: #ffff;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  background-color: #42a5f5;
+  background-color: #836d97;
   border: 0px;
   transition: all 200ms ease;
 }
 .button:hover {
-  background-color: #353cee;
+  background-color: #b6adf0;
 }
 .locationbutton {
   width: 100%;
@@ -32,10 +33,10 @@
   color: #ffff;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  background-color: #42a5f5;
+  background-color: #836d97;
   border: 0px;
   transition: all 200ms ease;
 }
 .locationbutton:hover {
-  background-color: #353cee;
+  background-color: #b6adf0;
 }

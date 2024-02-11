@@ -3,29 +3,33 @@ import "./Search.css";
 
 export default function Search() {
   return (
-    <p className="Search-form">
+    <div className="search-form">
       <form id="search-form">
         <div className="row">
-          <div className="col-10">
+          <div className="col-8">
             <input
               type="search"
+              placeholder="Enter location..."
               className="form-control"
-              placeholder="Enter Location"
-              id="location-name"
+              id="city-input"
             />
           </div>
-          <div className="col-1">
-            <button type="submit" class="button">
-              <i class="fa-solid fa-magnifying-glass"></i>
+          <div className="col-2">
+            <button type="submit" className="button">
+              <i className="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
-          <div className="col-1">
-            <button type="submit" class="locationbutton" id="location-button">
-              <i class="fa-solid fa-location-crosshairs"></i>
+          <div className="col-2">
+            <button
+              type="submit"
+              className="locationbutton"
+              id="location-button"
+            >
+              <i className="fa-solid fa-location-crosshairs"></i>
             </button>
           </div>
         </div>
       </form>
-    </p>
+    </div>
   );
 }

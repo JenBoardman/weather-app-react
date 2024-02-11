@@ -1,48 +1,95 @@
 h1 {
-  padding-top: 10px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: none;
-  text-align: left;
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 47px;
 }
 p {
-  color: #5c6477;
+  color: #212529;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
-.todays-temp {
-  display: block;
-  text-align: center;
-  font-size: 40px;
+.weather-temp-today strong {
+  font-size: 45px;
+  margin-top: 20px;
+  line-height: 50px;
   position: relative;
-  top: 30px;
-  color: black;
+  top: 20px;
+  text-align: center;
+  color: #212529;
+}
+
+.weather-temp-today .active {
+  color: #212529;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temp-today .active:hover {
+  text-decoration: none;
 }
 .today-box {
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 30px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
 }
-.unit {
-  font-size: 18px;
+
+.today-box i {
+  margin-right: 1px;
+  margin-top: 10px;
   position: relative;
-  bottom: 10px;
+  top: 20px;
 }
-.weather-h4-titles {
-  color: #5c6477;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  text-align: right;
+.unit {
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  margin: 5px;
 }
 .weather-details {
-  color: #42a5f5;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.weather-details li {
+  font-size: 12px;
+  text-align: right;
+}
+.weather-description {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0px;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #212529;
+  text-align: right;
 }
 .sun-icon {
   color: #f4e711;
   font-size: 52px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 300;
+}
+a {
+  color: #4e118a;
+  font-weight: 400;
+}
+a:hover {
+  color: #5d2e8d;
 }

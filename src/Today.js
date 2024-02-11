@@ -6,21 +6,24 @@ export default function Today() {
     <div className="today-box">
       <div className="row">
         <div className="col-4">
-          <h1 id="location">Surrey,UK</h1>
-          <p>
-            <strong id="today">Monday, Feb 19</strong>
-            <br />
-            <span id="time-now">15:02 </span>
-            <br />
-            <span id="descrip-weather">Clear Sky</span>
-          </p>
+          <h1 id="location">London</h1>
+          <ul>
+            <li>
+              <strong id="today">Monday, Feb 19</strong>
+            </li>
+            <li>
+              <span id="time-now">Last updated 15:02 </span>
+            </li>
+          </ul>
         </div>
-        <div className="col-4">
-          <p className="todays-temp">
+        <div className="col-5">
+          <p className="weather-temp-today">
             <i class="fa-solid fa-circle sun-icon"></i>{" "}
-            <span id="current-temp">10</span>{" "}
+            <strong id="currenttemp">
+              <span id="current-temp">10</span>
+            </strong>{" "}
             <span className="unit">
-              <a href="#" id="celcius-link">
+              <a href="#" id="celcius-link" className="active">
                 °C
               </a>{" "}
               |{" "}
@@ -30,28 +33,19 @@ export default function Today() {
             </span>
           </p>
         </div>
-        <div className="col-4">
-          <div className="row">
-            <div className="col-7">
-              <h4 className="weather-h4-titles">Precipitation</h4>
-            </div>
-            <div className="col-5">
-              <p className="weather-details">1%</p>
-            </div>
-            <div className="col-7">
-              <h4 className="weather-h4-titles">Humidity</h4>
-            </div>
-            <div className="col-5">
-              <p className="weather-details" id="weather-humidity">
-                66%
-              </p>
-            </div>
-            <div className="col-7">
-              <h4 className="weather-h4-titles">Wind</h4>
-            </div>
-            <div className="col-5">
-              <p className="weather-details">7 mph</p>
-            </div>
+        <div className="col-3">
+          <div className="weather-details">
+            <p className="weather-description" id="description">
+              Sunny Day
+            </p>
+            <ul>
+              <li>
+                <strong>Humidity</strong> 91%
+              </li>
+              <li>
+                <strong>Wind</strong> 2mph
+              </li>
+            </ul>
           </div>
         </div>
       </div>
